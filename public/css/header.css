@@ -1,0 +1,161 @@
+/* First section */
+
+#carouselExampleFade{
+    position: relative;
+}
+.slide{
+    height: 715px;
+}
+.slide-shadow{
+    background-color: rgba(0, 0, 0, 0.534);
+    height: 715px;
+    width: 100%;
+    position: absolute;
+    top: 0%;  
+    z-index: 2;
+   
+}
+.color-azure{
+    color: azure;
+}
+li a{
+    text-decoration-line: none;
+    color: inherit;
+}
+.Home{
+    color: #35659c ; 
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 18px;
+
+
+}
+
+@media screen and (max-width: 1285px){
+  nav{
+    width: fit-content;
+    padding-top: 57px;
+    width: 100%;  
+  }
+ 
+}
+@media screen and (max-width: 800px){
+    nav ul a{
+      display: none;
+    }
+  }
+@media screen and (min-width: 1285px){
+.logo{
+   margin-left: 100px;
+   margin-right: 360px;
+   border: solid white 3px;
+   padding:  4px 15px;
+   
+}
+nav{
+    padding-top: 44px;
+    width: 100%;   
+}
+}
+.sticky{
+
+    position: fixed;
+    top: 0%;
+    z-index: 2;
+    background-color: #292c2d;
+    padding-top: 10px;
+
+}
+
+/* animation on book text */
+@keyframes book{
+    0%   { left:0px; top:0px;}
+   
+    100% { left:0px; top:150px;}
+  }
+.Book{
+   text-align: center;
+   font-family: 'Lobster', cursive;
+   font-size: 40px;
+   position: relative;
+   left:0px;
+   top:150px;
+   animation-name: book;
+   animation-duration: 3s;
+}
+
+.Book_btn{
+    text-decoration: none;
+    padding: 15px 45px;
+    border: solid 3px azure;
+    position: relative;
+    left:44%;
+    top:210px;
+    background-color: rgba(240, 255, 255, 0.105)
+}
+.Book_btn:hover{
+    background-color: azure;
+}
+
+/* clock */
+@keyframes Clock{
+    0%   { left:20%; top:520px;}
+   
+    100% { left:20%; top:382px;}
+}
+.clock {
+    width: 60%;
+    height: 17%;
+    background-color: azure;
+    position: relative;
+    top: 382px;
+    left: 20%;
+    text-align: center;
+    padding: 30px;
+    box-shadow:  1.5px 1.5px 5px #131219;
+    opacity: 0.9;
+    display: flex;
+    justify-content: space-around;
+    animation-name: Clock;
+    animation-duration: 3s;
+
+}
+/* modified  */
+@keyframes Clock_new{
+    0%   { left:20%; top:520px;}
+   
+    100% { left:20%; top:371px;}
+}
+.clock.new{
+    box-shadow: none;
+    top: 371px;
+    animation-name: Clock_new;
+    animation-duration: 3s;
+ }
+@keyframes discover{
+    0%   { left:0px; top:0px;}
+   
+    100% { left:0px; top:220px;}
+}
+.Discover{
+   text-align: center;
+   font-family: 'Lobster', cursive;
+   font-size: 40px;
+   position: relative;
+   left:0px;
+   top:220px;
+   animation-name: discover;
+   animation-duration: 4s;
+}
+.small{
+    font-size: small;
+    color: azure;
+
+}
+.Discover a{
+    text-decoration: none;
+    margin-right: 10px;
+}
+

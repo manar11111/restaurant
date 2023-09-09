@@ -1,0 +1,70 @@
+.contact{
+    display: flex;
+    padding: 130px 170px;
+    justify-content: space-between;
+}
+.contact-form{
+    width: 50%;
+}
+.our-info{
+    width: 50%;
+    margin-right: 7%;
+}
+textarea{
+    width: 100%;
+}
+.super-container{
+    margin-top: 30px;
+}
+.info-container{
+    border: 1px gainsboro solid;
+    padding: 25px 15px;
+    color: darkgrey;
+    width: 100%;
+    margin: 20px 0px;
+    overflow: hidden;
+}
+.info-container span{
+
+    color: #35659c ;
+}
+
+.contact-form input{
+    width: 100%;
+    height: 60px;
+    margin: 10px 0px;
+    border: 1px gainsboro solid;
+    padding: 20px;
+}
+.super-container2{
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
+textarea{
+    padding: 20px;
+    border: 1px gainsboro solid;
+}
+button{
+    background-color: #35659c;
+    width: 45%;
+    height: 60px;
+    border: none;
+    color: aliceblue;
+}
+button:hover{
+    background-color: aliceblue;
+    color: #35659c;
+    border: 2px #35659c solid;
+}
+.validate{
+    border-color:red ;
+    background-color: rgba(239, 86, 86, 0.362);
+}
+.done{
+    text-align: center;
+    color: #26548b;
+    padding-top: 200px;
+    padding-bottom: 100px;
+    
+
+}
