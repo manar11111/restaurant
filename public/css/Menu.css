@@ -1,0 +1,95 @@
+
+.Menu{
+    padding: 130px 12%;
+    text-align: center;
+    background-color: rgb(236, 238, 240);
+}
+.Menu h1{
+    margin-bottom: 90px;
+    font-family: 'DM Serif Display', serif ;
+    
+}
+.menu ,.catigory ,.sub-conatiner{
+    transform:translateY(400%);
+    transition:all 1s ease;
+}
+.show{
+    transform:translateY(0%);
+}
+.catigory{
+    display: flex;
+    justify-content: center;
+
+}
+.sub-catigory{
+    height: 68px;
+    width: 130px;
+    background-color: rgb(255, 255, 255);
+    box-shadow:  1.5px 1.5px 5px #1312191f;
+    margin: 10px;
+    margin-bottom: 40px;
+    color: #ACACAC;
+    font-weight: bolder;
+    padding: 20px;
+    cursor: pointer;
+}
+.sub-conatiner{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom:25.70px  ;
+}
+.element{
+    width: 47%;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    box-shadow:  1.5px 1.5px 5px #1312191f;
+    display: flex;
+    padding-top: 15px;
+}
+.menu_txt{
+    width: 60%;
+    overflow: hidden;
+}
+.element img{
+    border-radius: 60%;
+    margin-left: 20px;
+    margin-right: 16px;
+}
+.element .up{
+    font-size: 19px;
+    width: 350px;
+    text-align: left;
+}
+.element .down{
+    color: darkgrey;
+    text-align: left;
+ 
+}
+.price{
+    padding-top:8px ;
+    overflow: hidden;
+    font-size: 32px;
+    width: 25%;
+    
+}
+.element:hover{
+    background-color:#c4dbf5;
+}
+.clicked{
+    background-color: #b8d5f7;
+    color: #8a8989;
+    height: 80px;
+    margin-top: -1px;
+    padding-top: 25px;
+}
+
+@keyframes move{
+    0%   { left:0px; top:0px;}
+    25%  { left:0px; top:90px;}
+    100% { left:0px; top:0px;}
+}
+.Move{
+    position: relative;
+    animation-name: move;
+    animation-duration: 1s;
+}

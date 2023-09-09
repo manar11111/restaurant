@@ -1,0 +1,33 @@
+	    TASTY RESTAURANT
+
+-Overview
+
+website for restaurant that help the customer to know  about 
+this business and easily deal with reservation 
+that make the restaurant popular and
+attract more customer
+
+--------------------------------------------------------------
+-Function
+
+1-allow customer to book a table at spacific date and time 
+2-the website help customer to know about the restaurant chefs 
+3-Displays statistics about the restaurant 
+4-Displays the comming events at resturant
+5-Displays the services that resturant provides
+6-Displays customers reviews about restaurant
+7-Displays the menu at restaurant 
+8-Displays Specialties of the restaurant
+9-customer can see the resturant posts throw the blog 
+10-customer can contact with the resturant
+11-Display the restaurant place at the map
+
+----------------------------------------------------------------------
+-Non-Function
+
+1-Maintainability => easy to update and modify the website
+2-Performance => The website fast and responsive, with a loading time of less than 3 seconds.
+3-Scalability => system can handle an increase in users or workload.
+4-availability => the website is avaliable all the time.
+5-Security => the website and its data protected against attacks.
+6-Usability=> the website is easy to use.

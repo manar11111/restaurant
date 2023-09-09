@@ -1,0 +1,69 @@
+.specialties{
+    padding: 121px 183px;
+    text-align: center;
+    background-color: rgb(236, 238, 240);
+}
+h2{
+    font-family: 'DM Serif Display', serif ;
+}
+.container{
+    margin-top: 90px;
+}
+.img1{
+    background-image: url(../images/Menu/dish-3.jpg);
+}
+.img2{
+    background-image: url(../images/Menu/dish-5.jpg);
+}
+.img3{
+    background-image: url(../images/Menu/dish-4.jpg);
+}
+.img4{
+    background-image: url(../images/Menu/dish-6.jpg);
+}
+.img5{
+    background-image: url(../images/Menu/dish-7.jpg);
+}
+.img6{
+    background-image: url(../images/Menu/dish-9.jpg);
+}
+.img7{
+    background-image: url(../images/Menu/dish-8.jpg);
+}
+.img8{
+    background-image: url(../images/Menu/dish-10.jpg);
+}
+.img9{
+    background-image: url(../images/Menu/dish-11.jpg);
+}
+.img10{
+    background-image: url(../images/Menu/dish-3.jpg);
+}
+.specialties-txt{
+    line-height: 30px;
+    background-color: aliceblue;
+    padding-bottom: 21px;
+    padding-top: 29px;
+    color: darkgray;
+}
+.specialties-txt .up{
+    color: black;
+    font-size: 21px;
+}
+.specialties-txt .down{
+    color:  #35659c;
+    font-weight: bold;
+}
+.specialties-img{
+    background-size: 274px 310px;
+ 
+}
+.row ,h2{
+    transform:translatex(-150%);
+    transition:all 2s ease;
+}
+
+
+.show{
+    transform:translatex(0%);
+}

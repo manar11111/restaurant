@@ -1,0 +1,68 @@
+body{
+    overflow-x: hidden;
+}
+.ABOUT{
+    margin: 0px 162px;
+    
+}
+.about-img{
+    background-image: url('../images/About/about-2.jpg');
+}
+.about-txt{
+    padding: 110px 70px ;
+}
+.about-txt h4{
+    line-height: 40px;
+    font-size: 30px;
+}
+.about-txt p{
+    color: darkgray;
+    line-height: 27px;
+    font-size: 16px;
+}
+.about-txt .small{
+    font-size: 13px;
+    line-height: 0%;
+}
+
+.row.intro{
+    text-align: center;
+    padding: 100px;
+}
+.row.intro p ,.chef p{
+   
+    font-size: small;
+    color: darkgray;
+}
+.chef{
+    margin-bottom: 250px;
+}
+
+.about-txt,.intro{
+    transform:translatex(+150%);
+    transition:all 2s ease;
+  
+}
+.ch1{
+
+    transform:translatex(-350%);
+    transition:all 2s ease;
+
+}
+.ch2{
+
+    transform:translatex(-400%);
+    transition:all 3s ease;
+
+}
+.ch3{
+
+    transform:translatex(-450%);
+    transition:all 4s ease;
+
+}
+
+.show{
+    transform:translatex(0%);
+    
+}
