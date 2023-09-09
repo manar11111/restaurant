@@ -1,0 +1,71 @@
+.FORM{
+    padding: 130px 170px;
+    background-color: rgb(249, 251, 254);
+}
+.FORM h2{
+    margin-bottom: 90px;
+    font-family: 'DM Serif Display', serif ;
+    text-align: center;
+    
+}
+.reservation-img{
+    background-image: url("../images/Reservation/slide1-image.jpg");
+    background-size: 600px 490px;
+    background-position-x: center;
+    
+}
+td{width: 50%;}
+.input{
+border: rgb(194, 193, 193) solid 0.5px;
+width: 95%;
+height: 55px;
+margin-top: 10px;
+margin-right: 20px;
+margin-bottom: 10px;
+padding-left: 10px;
+}
+.color-gray{
+    background-color: rgb(246, 246, 246);
+}
+.reservation-form{
+    
+    width: 100%;
+    height: 100%;
+    padding: 7%;
+    padding-left: 5%;
+    overflow: hidden;
+
+}
+.color-plue{
+    color: #3C95C4;
+}
+table{
+   width: 100%;
+}
+tbody{
+    width: 100%;
+}
+#reservation-btn{
+    width: 250px;
+    height: 60px;
+    border: none;
+    background-color: #87bbf7;
+    margin-top: 25px;
+    color: aliceblue;
+}
+#reservation-btn:hover{
+    background-color: aliceblue;
+    border: #8ebef5 2px solid;
+    color: #8ebef5;
+}
+.validate{
+    border-color:red ;
+    background-color: rgba(239, 86, 86, 0.362);
+}
+.done{
+    text-align: center;
+    color: #26548b;
+    padding-top: 160px;
+    padding-bottom: 100px;
+
+}
